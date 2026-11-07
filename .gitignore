@@ -23,7 +23,7 @@
 # misc
 .DS_Store
 *.pem
-/stitch_novva_agency_website_recreation/
+/website_sources/
 
 # debug
 npm-debug.log*
