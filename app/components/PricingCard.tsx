@@ -21,7 +21,7 @@ export function PricingCard({ plan }: { plan: Pricing }) {
       <div className="border-y border-cyan-500/10 py-5 mb-6"><span className="block text-xs uppercase tracking-wider text-[#8899b0]">Deployment investment</span><strong className="block text-3xl text-white mt-2">{plan.price} <small className="text-sm font-normal text-[#8899b0]">{plan.priceNote}</small></strong><span className="text-xs text-[#8899b0]">{plan.scope}</span>
       </div>
       <ul className="space-y-3 text-sm text-[#bec7d4] flex-1 list-none pl-0">{plan.features.map((feature) => <li key={feature}>✓ {feature}</li>)}</ul>
-      <a className={`mt-8 inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition-colors ${plan.featured ? "bg-gradient-to-r from-blue-600 via-[#00a6ff] to-[#00d2ff] text-white hover:opacity-90" : "border border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/10"}`} href="#contact">
+      <a className={`mt-8 inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition-colors ${plan.featured ? "bg-gradient-to-r from-blue-600 via-[#00a6ff] to-[#00d2ff] text-white hover:opacity-90" : "border border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/10"}`} href="https://wa.me/917398872311" target="_blank" rel="noreferrer">
         {plan.action} <span className="ml-2">→</span>
       </a>
     </article>
